@@ -1,4 +1,3 @@
-#include "../../std_lib_facilities.h"
 
 bool is_palindrome(string num)
 {
