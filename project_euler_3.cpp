@@ -1,10 +1,12 @@
+#include <math.h>
+#include <iostream>
 
 bool is_prime(long long int n)
 {
 	for (int i = 2; i <= sqrt(n); ++i)
-	if ((n % i) == 0) return false;
+		if ((n % i) == 0) return false;
 
-    return true;
+	return true;
 }
 
 int main()
@@ -17,5 +19,5 @@ int main()
 				high = i;
 	}
 
-	cout << high << endl;
+	std::cout << high << std::endl;
 }
