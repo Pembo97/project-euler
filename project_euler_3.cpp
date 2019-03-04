@@ -1,6 +1,6 @@
 #include <math.h>
 #include <iostream>
-
+/
 bool is_prime(long long int n)
 {
 	for (int i = 2; i <= sqrt(n); ++i)
