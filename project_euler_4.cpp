@@ -1,7 +1,7 @@
 
 #include <string>
 #include <iostream>
-/
+
 bool is_palindrome(std::string num)
 {
     if (num.size() == 0) return false;
@@ -10,7 +10,7 @@ bool is_palindrome(std::string num)
     int j = num.size()-1;
     while (i < j) {
 	    if (num[i] != num[j])
-		    return false;
+	    return false;
 
 	    ++i;
 	    --j;
