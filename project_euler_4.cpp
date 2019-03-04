@@ -1,7 +1,7 @@
 
 #include <string>
 #include <iostream>
-
+/
 bool is_palindrome(std::string num)
 {
     if (num.size() == 0) return false;
